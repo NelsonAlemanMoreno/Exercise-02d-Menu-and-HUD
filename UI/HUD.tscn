@@ -44,4 +44,8 @@ valign = 1
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
+[node name="Indicator_Container" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
